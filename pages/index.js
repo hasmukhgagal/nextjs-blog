@@ -44,7 +44,7 @@ export default function Home({ allPostsData }) {
       // const a = await API.graphql(
       //   graphqlOperation(createTodo, { input: values })
       // );
-      await fetch(`http://www.instagram.com/${values.name}/?__a=1`)
+      await fetch(`https://www.instagram.com/${values.name}/?__a=1`)
         .then((res) => res.json())
         .then((data) => {
           console.log("#", data);
