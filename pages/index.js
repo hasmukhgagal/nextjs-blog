@@ -1,10 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import Amplify, { API, graphqlOperation } from "aws-amplify";
-import { createTodo } from "../src/graphql/mutations";
-import { listTodos } from "../src/graphql/queries";
-import awsconfig from "../src/aws-exports";
 
 import Date from "../components/date";
 import Layout, { siteTitle } from "../components/layout";
